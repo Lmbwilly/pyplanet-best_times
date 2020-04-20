@@ -16,4 +16,8 @@ Or like this:
 	 ]
     }
 
-![Detailed list of all times!](/list.jpg "Detailed list of all time")
+##Preview
+
+![Overview of best 12 times!](https://raw.githubusercontent.com/Lmbwilly/pyplanet-best_times/master/top12.png "Overview of best 12 times")
+
+![Detailed list of all times!](https://raw.githubusercontent.com/Lmbwilly/pyplanet-best_times/master/list.png "Detailed list of all time")
