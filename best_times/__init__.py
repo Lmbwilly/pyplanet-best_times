@@ -33,6 +33,11 @@ class BestTimesApp(AppConfig):
 	# When a player passes a CP
 	async def player_finish(self, player, lap_time, *args, **kwargs):
 		laptime = lap_time
+		
+		# Ignore invalid times (cp time will be 0)
+		if laptime == 0:
+			return
+		
 		pt = PlayerTime(player, laptime)
 		if not self.best_times:
 			self.best_times.append(pt)
